@@ -1,0 +1,247 @@
+.cardHeading {
+    font-size: 50px;
+    font-family: Playfair Display,serif;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-bottom: 55px;
+    margin: 0;
+}
+
+.cardsectionData p {
+    color: #fff;
+    position: absolute;
+    top: 58px;
+    left: 12%;
+    margin: 0;
+    font-size: 35px;
+    width: 50%;
+    font-weight: 600;
+    font-family: Playfair Display,serif;
+    cursor: pointer;
+    line-height: 42px;
+}
+
+.cardTextData {
+    background-color: rgb(255 255 255 / 19%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 44px 34px;
+}
+
+.cardtText {
+    font-size: 16px;
+    color: #fff;
+    width: 90%;
+    font-family: proxima-nova, sans-serif;
+}
+
+.readMore a {
+    color: #fff;
+    font-size: 16px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 600;
+    position: relative;
+    transition: 0.3s;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.readMore a:hover {
+    color: #F37B68;
+    transition: 0.3s;
+}
+
+.readMore a:after {
+    content: "";
+    position: absolute;
+    width: 56%;
+    height: 2px;
+    background: #F27C67;
+    top: 24px;
+    left: 0;
+}
+
+p.blackText {
+    color: #000;
+    width: 45%;
+}
+
+.imgRadius {
+    width: 100%!important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.custompadd {
+    padding-top: 32px;
+    padding-bottom: 78px;
+}
+
+.cardpadd {
+    padding: 12px 24px;
+}
+
+/* .cardsectionData.col-lg-4 {
+    flex: 0 0 auto;
+    width: 31.333333%;
+    margin: auto;
+} */
+
+
+
+/* .cardsectionData {
+    width: 30.33% !important;
+    margin: auto;
+} */
+
+
+@media (max-width: 1024px) {
+    .cardtText {
+        width: 100%;
+    }
+
+    .cardHeading {
+        font-size: 42px;
+    }
+
+    .cardsectionData p {
+        font-size: 30px;
+        line-height: 35px;
+        top: 58px;
+        left: 22%;
+        width: 39%;
+    }
+    .whiteguitar {
+        width: 34% !important;
+    }
+
+    .cardtText.pb-5 {
+        padding-bottom: 32px !important;
+    }
+
+    .readMore a {
+        font-size: 15px;
+    }
+
+    .cardwidth {
+        max-width: 360px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .cardpadd {
+        padding: 12px 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    .cardwidth {
+        max-width: 342px;
+        margin: auto;
+        width: 100%;
+    }
+    .custompadd {
+        padding-top: 32px;
+        padding-bottom: 78px;
+        /* max-width: 100%; */
+    }
+}
+
+@media (max-width: 768px) {
+    .cardsectionData p {
+        font-size: 30px;
+        line-height: 35px;
+        top: 28px;
+        left: 12%;
+        width: 39%;
+    }
+}
+
+@media (max-width: 767px) {
+    .cardtText {
+        font-size: 16px;
+        color: #fff;
+        font-family: proxima-nova, sans-serif;
+    }
+    .cardtText.pb-5 {
+        padding-bottom: 16px !important;
+    }
+    .cardsectionData p {
+        top: 15%;
+        left: 26%;
+        width: 34%;
+    }
+    .whiteguitar {
+        width: 30% !important;
+    }
+    .cardwidth {
+        width: 260px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .cardsectionData p {
+        top: 10%;
+        left: 16%;
+        width: 34%;
+    }
+}
+
+@media (max-width: 575px) {
+    .cardsectionData p {
+        left: 26%;
+        top: 16%;
+    }
+
+    .cardtText.pb-5 {
+        padding-bottom: 24px !important;
+    }
+    .whiteguitar {
+        width: 42% !important;
+    }
+
+    .cardwidth {
+        width: 360px;
+        margin: auto;
+    }
+
+    .cardHeading {
+        font-size: 28px;
+        padding-bottom: 18px;
+    }
+}
+
+@media (max-width: 425px) {
+    .cardsectionData p {
+        left: 12%;
+        top: 16%;
+    }
+    .cardwidth {
+        width: 100%;
+        margin: auto;
+    }
+
+    .custompadd {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .cardwidth {
+        max-width: 100%;
+        margin: auto;
+        width: 100%;
+        padding: 0 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .cardsectionData p {
+        left: 9%;
+    }
+}
+
+@media (max-width: 320px) {
+    .cardsectionData p {
+        left: 11%;
+    }
+}

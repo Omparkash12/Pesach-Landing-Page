@@ -1,0 +1,277 @@
+.dashSub1 {
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1.5rem !important;
+    padding-left: 51px !important;
+    padding-top: 28px !important;
+    padding-right: 22px !important;
+
+}
+.dashSub2 {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid lightgray;
+    padding-left: 4.2rem;
+    padding-top: 28px;
+}
+.dashSub3 {
+    padding-bottom: 1.5rem;
+    border-right: 1px solid lightgray;
+    padding-top: 30px;
+    padding-left: 51px;
+    padding-right: 22px;
+}
+
+.dashSub4 {
+    padding-bottom: 1.5rem;
+    padding-left: 4.2rem;
+    padding-top: 28px;
+}
+
+.dashData h5 {
+    font-size: 17px;
+    font-family: Playfair Display,serif;
+    font-weight: bold;
+}
+
+.dashData p {
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;;
+    max-width: 90%;
+    font-family: proxima-nova, sans-serif;
+}
+
+.dashReadMore a {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    transition: 0.3s;
+    text-decoration: none;
+    font-family: proxima-nova, sans-serif;
+    letter-spacing: 2px;
+
+}
+.dashReadMore a:hover {
+    color: #F27C67;
+    transition: 0.3s
+}
+
+.dashReadMore a:after {
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 2px;
+    background: #F27C67;
+    left: 0;
+    bottom: -8px;
+}
+
+@media (max-width: 1024px) {
+    .dashGuitarImg {
+        display: none;
+    }
+
+    .dashboadSectionData.py-5 {
+        width: 100% !important;
+    }
+
+    .dashboadSection .dashData h5 {
+        font-size: 20px;
+        font-family: Playfair Display,serif;
+        font-weight: bold;
+    }
+    .dashData p {
+        font-size: 13px;
+        font-weight: 500;
+        width: 100%;
+        max-width: 79%;
+        font-family: proxima-nova, sans-serif;
+    }
+
+    .dashReadMore a {
+        font-size: 14px;
+    }
+    .dashSub1 {
+        padding-left: 62px !important;
+    }
+    .dashSub3 {
+        padding-left: 62px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .dashdata.px-5 {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+    .dashData p {
+        max-width: 100%;
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    .dashSub1.p-5 {
+        padding: 18px 58px 18px 18px !important;
+    }
+    .dashSub2.p-5 {
+        padding: 18px 18px 18px 58px !important;
+    }
+    .dashSub3.p-5 {
+        padding: 18px 58px 18px 18px !important;
+    }
+    .dashSub4.p-5 {
+        padding: 18px 18px 18px 58px !important;
+    }    
+}
+
+
+@media (max-width: 768px) {
+    .dashData p {
+        font-size: 14px;
+    }
+    .dashData h5 {
+        font-size: 18px;
+    }
+    .dashSvg svg {
+        width: 42px;
+    }
+
+    .dashSub1 {
+        padding-bottom: 1.5rem !important;
+        padding-left: 24px !important;
+        padding-top: 28px !important;
+        padding-right: 22px !important;
+    }
+    .dashSub3 {
+        padding-bottom: 1.5rem;
+        border-right: 1px solid lightgray;
+        padding-top: 30px;
+        padding-left: 24px;
+        padding-right: 22px;
+    }
+    .dashSub2 {
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid lightgray;
+        padding-left: 3.2rem;
+        padding-top: 28px;
+    }
+    .dashSub4 {
+        padding-bottom: 1.5rem;
+        padding-left: 3rem;
+        padding-top: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .dashSub1 {
+        padding-left: 18px !important;
+    }
+    .dashSub3 {
+        padding-left: 18px;
+    }
+    .dashSub2 {
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid lightgray;
+        padding-left: 3rem;
+        padding-top: 28px;
+    }
+    .dashSub4 {
+        padding-bottom: 1.5rem;
+        padding-left: 3.2rem;
+        padding-top: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    .dashData p {
+        font-size: 13px;
+    }
+    .dashReadMore a {
+        font-size: 14px;
+    }
+
+    .dashSub1 {
+        padding-left: 12px !important;
+    }
+    .dashSub2 {
+        padding-left: 12px;
+    }
+    .dashSub3 {
+        padding-left: 12px;
+    }
+
+    .dashSub4 {
+        padding-left: 26px;
+    }
+}
+
+@media (max-width: 575px) {
+    .dashdataBorder {
+        border-right: none;
+        border-left: none;
+    }
+
+    .dashData p {
+        max-width: 79%;
+    }
+    .dashSub1 {
+        border-right: none;
+        border-bottom: none;
+    }
+
+    .dashSub2 {
+        border-bottom: none;
+    }
+
+    .dashSub3 {
+        border-right: none;
+    }
+
+    .dashSvg svg {
+        width: 52px;
+    }
+    .dashSvg.pe-3 {
+        padding-right: 90px !important;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .dashSvg.pe-3 {
+        padding-right: 46px !important;
+    }
+    .dashData p {
+        max-width: 86%;
+    }
+
+    .dashSub1 {
+        padding-left: 12px !important;
+    }
+    .dashSub2 {
+        padding-left: 12px !important;
+    }
+    .dashSub3 {
+        padding-left: 12px !important;
+    }
+    .dashSub4 {
+        padding-left: 12px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .dashSvg svg {
+        width: 44px;
+    }
+    .dashSvg.pe-3 {
+        padding-right: 24px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .dashSvg svg {
+        width: 30px;
+    }
+}
+

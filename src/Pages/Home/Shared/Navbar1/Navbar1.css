@@ -1,0 +1,102 @@
+.TBpadding {
+    padding-top: 44.2px;
+    padding-bottom: 16.8px;
+}
+
+.navigationBar1 {
+    background: #010F2D;
+    border-bottom: 3px solid #777;
+}
+
+button.navbar-toggler {
+    border: 3px solid #fff;
+    padding: 0 6px;
+}
+
+.width70 a {
+    color: #fff;
+}
+
+.width70 a:hover {
+    color: #F27C67;
+}
+
+.width70 a:hover span.navIcons1:after {
+    width: 50%;
+    left: 0;
+}
+
+span.navIcons {
+    padding: 0 12px 0 0;
+    font-size: 20px;
+    color: #F27C67;
+}
+
+.navigationBar1 ul li.nav-item {
+    padding: 0 0 0 68px;
+}
+
+/* .navigationBar1.paddLeft {
+    padding: 0 0 0 42px !important;
+} */
+
+.navigationBar1 a.nav-link {
+    font-size: 14px;
+    font-family: proxima-nova, sans-serif;
+}
+
+
+
+
+/* .navigationBar1 {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 11;
+} */
+
+@media (max-width: 1024px) {
+    .navigationBar1 ul li.nav-item {
+        padding: 0 0 0 32px;
+    }
+}
+
+@media (max-width: 991px) {
+        .navigationBar1 ul li.nav-item {
+        padding: 0 15px;
+    }  
+    
+    .justify-content-end.forCenter {
+        display: flex;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .TBpadding.d-flex.justify-content-end {
+        display: flex !important;
+        justify-content: center !important;
+    }
+          
+
+    .TBpadding {
+        padding-top: 20.2px;
+        padding-bottom: 16.8px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* .DisNone {
+        display: none;
+    } */
+    .navigationBar1 ul li.nav-item {
+        padding: 0 6px;
+    }
+}
+@media (max-width: 651px) {
+    .DisNone {
+        display: none;
+    }
+}
+

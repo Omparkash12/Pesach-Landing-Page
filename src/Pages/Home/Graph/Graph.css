@@ -1,0 +1,97 @@
+.graphData1 p {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: proxima-nova, sans-serif;
+    line-height: 20px;
+}
+
+.graphData1 h1 {
+    font-size: 51px;
+    font-weight: 600;
+    font-family: proxima-nova, sans-serif;
+}
+
+.graphRow {
+    padding-bottom: 48px;
+}
+
+.graphData1 {
+    padding: 28px 12px 0;
+}
+
+@media (max-width: 1210px) {
+    .graphData1 p {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .bg768 {
+        background: url(https://cdn.shopify.com/s/files/1/0450/9319/1836/files/Untitled-1.jpg?v=1645861559);
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .graphData1 h1 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .graphRow {
+        padding-bottom: 48px;
+        padding-top: 16px;
+    }
+
+    .graphData1 p {
+        font-weight: 400;
+    }
+    .graphpadding {
+        padding-bottom: 32px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .graphData1 p {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    .graphData1 {
+        padding: 24px 12px !important;
+    }
+
+    .graphData1 h1 {
+        padding-bottom: 12px !important;
+        padding-top: 12px !important;
+    }
+
+    .graphRow {
+        padding-top: 16px;
+        padding-bottom: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* .bg768 {
+        background: url(https://cdn.shopify.com/s/files/1/0450/9319/1836/files/Untitled-1.jpg?v=1645861559);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    } */
+}
+
+@media (max-width: 575px) {
+    .graphData1 {
+        padding: 16px 12px !important;
+    }
+
+    .graphData1 h1 {
+        font-size: 26px;
+    }
+    .graphRow {
+        padding-bottom: 24px !important;
+    }
+}

@@ -1,0 +1,48 @@
+@media (min-width: 1400px) and (max-width: 1920px) {
+    .pagepadding {
+        padding-right: 55px !important;
+        padding-left: 55px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .pagepadding {
+        padding-right: 18px !important;
+        padding-left: 18px !important;
+        max-width: 100% !important;
+    }  
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .navpadding {
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .pagepadding {
+        padding-right: 12px !important;
+        padding-left: 12px !important;
+        max-width: 100% !important;
+    } 
+}
+
+@media (max-width: 425px) {
+    .pagepadding {
+        padding-right: 12px !important;
+        padding-left: 12px !important;
+        max-width: 100% !important;
+    } 
+}
+
+@media (max-width: 768px) {
+    .paddX{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
+
+

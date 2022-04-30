@@ -1,0 +1,357 @@
+.diffBG {
+    border-bottom: 1px solid #e8e9eb;
+    background: #010F2D;
+}
+
+.navigationBar2 ul li.nav-item {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+span.navIcons {
+    padding: 0 12px 0 0;
+    font-size: 20px;
+    color: #F27C67;
+}
+
+button.navbar-toggler {
+    border: 3px solid #fff;
+    padding: 0 6px;
+}
+
+.navIcons1{
+    position: relative;
+}
+
+span.navIcons1:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #F27C67;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+}
+
+.width70 a:hover span.navIcons1:after {
+    width: 50%;
+    left: 0; 
+}
+
+.toggleLink3{
+    display: none;
+}
+.burger-toggleBtn-1{
+    display: none;
+}
+.show{
+    display: block !important;
+}
+.hide{
+    display: none;
+}
+
+
+input.serachBarInput {
+    padding: 10px 38px 10px 32px;
+    border-radius: 5px;
+    margin: 0 18px 0 32px;
+    border: none;
+    font-size: 14px;
+}
+
+input.serachBarInput::placeholder {
+    color: #949494;
+}
+
+input.serachBarInput:focus-visible {
+    outline: none;
+}
+
+.heart:hover.heart svg path {
+    fill: #F27C67;
+}
+
+.navCart:hover g#Group_827 path {
+    fill: #F27C67;
+}
+.navCart:hover #Ellipse_551 {
+    fill: #F27C67;
+}
+.navCart:hover #Ellipse_552 {
+    fill: #F27C67;
+}
+.navCart:hover #Ellipse_553 {
+    fill: #F27C67;
+}.navCart:hover #Ellipse_554 {
+    fill: #F27C67;
+}
+
+.navigationBar2 a.nav-link {
+    font-size: 13px;
+    font-family: proxima-nova, sans-serif;
+}
+
+.item1 img {
+    width: 130px;
+}
+
+
+
+.burger-toggleBtn svg {
+    color: #fff;
+}
+.burger-toggleBtn-1 svg {
+    color: #fff;
+}
+
+.toggleBrandImg{
+    width: 125px;
+}
+
+ .toggleLink3 .productToggle {
+    padding: 12px 0px;
+    color: #404040;
+    border-bottom: 1px solid #efefef;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* .navigationBar2 {
+    position: fixed;
+    top: 10.4%;
+    z-index: 12;
+    overflow: hidden;
+} */
+
+.navigationBar2 {
+    position:fixed;
+    z-index: 20;
+    top:95px;
+}
+
+
+
+.navpadding {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.item1 img {
+    max-width: 130px;
+    height: 45.5px;
+    width: 100%;
+    margin: auto;
+}
+
+@media (max-width: 1440px) {
+    /* .navigationBar2 {
+        position: fixed;
+        top: 11.4%;
+    } */
+}
+
+@media (max-width: 1199px) {
+    .navigationBar2 ul li.nav-item {
+        padding-right: 16px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navigationBar2 ul li.nav-item {
+        padding-right: 16px;
+    }
+
+    .navigationBar1 a.nav-link {
+        font-size: 14px;
+    }
+    input.serachBarInput {
+        margin: 0 12px 0 32px;
+    }
+    .heart.ms-4 {
+        margin-left: 12px !important;
+    }
+    .navCart.ms-4 {
+        margin-left: 12px !important;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    .item2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .navigationBar2 ul li.nav-item {
+        padding-right: 0;
+    }
+
+    .navigationBar2 a.nav-link {
+        font-size: 14px;
+        text-align: end;
+    }
+
+    input.serachBarInput {
+        padding: 8px 0 8px 8px;
+        border-radius: 4px;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    .navigationBar2 ul li.nav-item {
+        padding-left: 16px;
+    }
+
+    .heart.ms-4 {
+        margin-left: 12px !important;
+    }
+    .navCart.ms-4 {
+        margin-left: 12px !important;
+    }
+     
+    .heart {
+        display: none !important;
+    }
+
+    .navCart {
+        display: none !important;
+    }
+    .item2 ul {
+        padding: 12px 0;
+    }
+
+    .heart, .navCart {
+        justify-content: end;
+    }
+
+    .navigationBar2 a.nav-link {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    
+}
+
+@media (min-width: 769px) and (max-width:991px) {
+    .navpadding {
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .newToggleNav {
+        display: none;
+    }
+    .menufix {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .navigationBar2 a.nav-link {
+        font-size: 13px;
+    }
+
+    .navpadding {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .toggNavNone {
+        display: none;
+    }
+    .newToggleNav {
+        /* overflow: hidden; */
+        position: sticky;
+        top: 0;
+        z-index: 29;
+    }
+    .menufix {
+        position: fixed;
+        overflow: hidden;
+        top: 18%;
+        z-index: 10;
+        background: #fff;
+    }
+    .mobileBrandImg {
+        max-width: 114px !important;
+        width: 100%;
+        margin: auto;
+    }
+
+    .mobilenav {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+@media (max-width: 651px) {
+    .menufix {
+        top: 10%;
+    }
+}
+
+@media (max-width: 576px) {
+    /* .width70 {
+        padding-right: 12px !important;
+        padding-left: 12px !important;
+    } */
+    .mobileBrandImg {
+        max-width: 79px !important;
+        width: 100%;
+        margin: auto;
+    }
+
+    .menufix {
+        top: 8%;
+    }
+}
+
+@media (max-width: 425px) {
+    .menufix {
+        position: absolute;
+        top: 10%;
+    }
+
+    .width70.py-3 {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+    .toggleLink3 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .mobileBrandImg {
+        max-width: 116px !important;
+        height: 40px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px){
+    .mobileBrandImg {
+        max-width: 101px !important;
+        height: 35px;
+        width: 100%;
+    }
+
+    .menufix {
+        position: absolute;
+        top: 9%;
+    }
+}
+
+@media (max-width: 320px){
+
+    .mobileBrandImg {
+        max-width: 85.19px !important;
+        height: 28.56px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,244 @@
+.footerdata1 .quickSpan {
+    width: 44%;
+    height: 2px;
+    background: #F37B68;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+}
+.footerdata1 .contactSpan {
+    width: 26%;
+    height: 2px;
+    background: #F37B68;
+    position: absolute;
+    left: 33px;
+    bottom: -8px;
+}
+.footerdata1 .timingSpan {
+    width: 28%;
+    height: 2px;
+    background: #F37B68;
+    position: absolute;
+    left: 33px;
+    bottom: -8px;
+}
+
+.quickLinks a {
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-family: proxima-nova, sans-serif;
+}
+
+.quickLinks a:hover {
+    color: #fff;
+}
+
+.footerdata1 img {
+    max-width: 283px;
+    width: 100%;
+    margin: auto;
+    height: 98px;
+}
+
+.footerdata1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.footeImage {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.footerdata1 h4 {
+    font-size: 20px;
+    font-family: Playfair Display,serif;
+    font-weight: bold;
+}
+
+.footerdata1 ul {
+    font-size: 14px;
+    font-family: proxima-nova, sans-serif;
+}
+
+
+
+.copyrightSection {
+    background: #F27C67;
+}
+
+.copyrightLinks a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+
+}
+
+.copyrightLinks a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.copyrightSection p {
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+.copyrightLinks a {
+    font-size: 15px;
+}
+
+.footerdata1 ul li {
+    padding-bottom: 12px;
+}
+
+.footerBG{
+    background-color: #101532;
+}
+
+.contactText {
+    padding-left: 32px;
+}
+
+@media (max-width: 1024px) {
+    .contactText {
+        padding-left: 0;
+    }
+    .footerdata1 .contactSpan {
+        left: 0;
+    }
+    .footerdata1 .timingSpan {
+        left: 0;
+    }
+
+    .footersection.py-5 {
+        padding-bottom: 1rem !important;
+        padding-top: 5rem !important;
+    }
+
+    .footerdata1 ul li {
+        padding-bottom: 10px;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    .footerdata1 img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .footeImage {
+        display: flex;
+        align-content: center;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footerdata1 h4 {
+        font-size: 18px;
+    }
+    .footerdata1 ul {
+        font-size: 12px;
+    }
+
+    .copyrightSection p {
+        font-size: 18px;
+    }
+
+    .footerdata1 ul li {
+        padding-bottom: 6px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footerdata1 img {
+        width: 100%;
+        max-width: 188px;
+        height: 65px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* .footersection.py-5 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    } */
+
+    .footerdata1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .footeImage {
+        display: flex;
+        align-content: center !important;
+        padding-bottom: 4rem;
+    }
+    .footerdata1 img {
+        width: 100%;
+        max-width: 136px;
+        height: 47px;
+    }
+
+    .footersection.py-5 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .footerdata1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        flex-direction: column;
+        margin: 8px 0px ;
+    }
+
+    .footeImage {
+        display: flex;
+        align-content: center;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .copyrightText p {
+        text-align: center;
+    }
+
+    .copyrightTerms {
+        justify-content: center !important;
+    }
+    .copyrightLinks a {
+        font-size: 16px;
+    }
+    .copyrightLinks {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }      
+}
+
+
+@media (max-width: 425px) {
+    .footerdata1 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .footerdata1 img {
+        width: 100%;
+        max-width: 101px;
+        height: 35px;
+    }
+
+    .footeImage {
+        padding-bottom: 1.5rem;
+    }
+}

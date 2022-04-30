@@ -1,0 +1,832 @@
+.section-max-heading {
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.section-min-heading {
+    font-family: proxima-nova, sans-serif;
+    font-size: 16px;
+    line-height: 4;
+    margin: 16px 0;
+}
+
+.shopBtn1 {
+    width: 100%;
+    max-width: 33%;
+    padding: 16px 0;
+    border-radius: 36px;
+    background: transparent;
+    border: 2px solid #F27C67;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+    margin-right: 12px;
+    font-family: proxima-nova, sans-serif;
+}
+
+.shopBtn1:hover {
+    background-color: #F27C67;
+    border-color: #F27C67;
+    transition: 0.3s;
+
+}
+
+.shopBtn2 {
+    width: 100%;
+    max-width: 33%;
+    padding: 16px 0px;
+    border-radius: 36px;
+    background: transparent;
+    border: 2px solid #F27C67;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+    margin-left: 12px;
+    font-family: proxima-nova, sans-serif;
+}
+
+.shopBtn2:hover {
+    background-color: #F27C67;
+    border-color: #F27C67;
+    transition: 0.3s;
+}
+
+.withoutBorder {
+    background: #010F2D;
+}
+
+.guitarSection {
+    background-image: url(./Images/background1.jpg);
+    background-size: initial;
+    background-position: bottom;
+}
+
+.dottt svg {
+    background: #fff;
+    border-radius: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.socialMediaLinks {
+    position: absolute;
+    transform: rotate(-90deg);
+    right: -8.1%;
+    top: 49.5%;
+}
+
+.socialMediaLinks a {
+    color: #868DA8;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: proxima-nova, sans-serif;
+    letter-spacing: 1px;
+}
+
+a.linkPadding {
+    padding: 0 80px 0 90px;
+}
+
+.socialMediaLinks a:hover {
+    color: #fff;
+    transition: 0.2s;
+}
+
+.forAbsolute {
+    position: absolute;
+    top: -10%;
+    right: 47%;
+}
+
+.allDots {
+    max-width: 56px;
+    width: 100%;
+    position: absolute;
+    bottom: 9%;
+    right: 36.5%;
+    z-index: 7 !important;
+}
+
+.dottt {
+    padding: 16px;
+    max-width: 52px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dottt.dot1 {
+    transform: translateX(26px);
+    margin: 8px 0;
+}
+
+.dottt.dot2 {
+    transform: translateX(58px);
+}
+
+.dottt.dot3 {
+    transform: translateX(68px);
+    margin: 16px 0;
+}
+
+.dottt.dot4 {
+    transform: translateX(44px);
+}
+
+.borderBtn {
+    border: 2px solid #fff;
+}
+.section-max-heading.pt-4 {
+    padding-top: 0 !important;
+}
+
+
+@media (max-width: 1440px) {
+    .forAbsolute {
+        position: absolute;
+        top: -10%;
+        right: 51%;
+    }
+
+    .allDots {
+        max-width: 56px;
+        width: 100%;
+        position: absolute;
+        bottom: 10%;
+        right: 40.5%;
+    }
+
+    .dottt.dot5 {
+        transform: translateX(-6px);
+    }
+}
+
+@media (max-width: 1399px) {
+    .allDots {
+        max-width: 56px;
+        width: 100%;
+        position: absolute;
+        bottom: 10%;
+        right: 29.5%;
+    }
+
+    .forAbsolute {
+        position: absolute;
+        top: -10%;
+        right: 41%;
+    }
+}
+
+@media (max-width: 1260px) {
+    .socialMediaLinks {
+        position: absolute;
+        transform: rotate(-90deg);
+        right: -14%;
+        top: 50%;
+    }
+}
+
+@media (max-width: 1210px) {
+
+    .forAbsolute {
+        position: absolute;
+        top: -9%;
+        right: 43%;
+    }
+
+    .allDots {
+        max-width: 56px;
+        width: 100%;
+        position: absolute;
+        bottom: 9%;
+        right: 29.5%;
+    }
+
+    .socialMediaLinks {
+        position: absolute;
+        transform: rotate(90deg);
+        right: -14%;
+        top: 50%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .allDots {
+        max-width: 56px;
+        width: 100%;
+        position: absolute;
+        bottom: 12%;
+        right: 17.5%;
+    }
+
+    .forAbsolute {
+        position: absolute;
+        top: 0%;
+        right: 32%;
+        height: 90% !important;
+    }
+}
+
+@media (max-width: 1080px) {
+    .socialMediaLinks {
+        position: absolute;
+        transform: rotate(90deg);
+        right: -19%;
+        top: 50%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .shopBtn1 {
+        width: 100%;
+        max-width: 40%;
+        padding: 12px 0;
+    }
+
+    .shopBtn2 {
+        width: 100%;
+        max-width: 40%;
+        padding: 12px 0;
+    }
+
+    .section-max-heading {
+        font-size: 68px;
+        line-height: 80px;
+    }
+
+    .socialMediaLinks {
+        position: absolute;
+        transform: rotate(-90deg);
+        right: -18%;
+        top: 50%;
+    }
+
+    .allDots {
+        max-width: 56px;
+        width: 100%;
+        position: absolute;
+        bottom: 7%;
+        right: 28.5%;
+    }
+
+    .forAbsolute {
+        position: absolute;
+        top: -6%;
+        right: 43%;
+        height: 100% !important;
+    }
+
+    .dottt.dot4 {
+        transform: translateX(28px);
+    }
+
+    .dottt.dot3 {
+        transform: translateX(38px);
+        margin: 1px 0;
+    }
+
+    .dottt.dot2 {
+        transform: translateX(32px);
+    }
+
+    .dottt.dot1 {
+        transform: translateX(8px);
+        margin: 0;
+    }
+
+    .guitarSection {
+        background-size: 160%;
+    }
+
+    .section-max-heading.pt-4 {
+        padding-top: 1.5rem !important;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .socialMediaLinks {
+        position: absolute;
+        transform: rotate(-90deg);
+        right: -18%;
+        top: 50%;
+    }
+
+    .forAbsolute {
+        position: absolute;
+        top: -12%;
+        right: 29%;
+        height: 540px !important;
+    }
+
+    .allDots {
+        max-width: 56px;
+        width: 100%;
+        position: absolute;
+        bottom: 7%;
+        right: 9.5%;
+    }
+
+    .section-max-heading {
+        font-size: 56px;
+        line-height: 62px;
+    }
+
+    .shopBtn1 {
+        width: 100%;
+        max-width: 50% !important;
+    }
+
+    .shopBtn2 {
+        width: 100%;
+        max-width: 50% !important;
+    }
+}
+
+@media (max-width: 910px) {
+    .forAbsolute {
+        position: absolute;
+        top: -10%;
+        right: 32%;
+        /* height: 540px !important; */
+    }
+
+    .dottt.dot1 {
+        transform: translateX(-2px);
+        margin: 0;
+    }
+
+    .dottt.dot2 {
+        transform: translateX(28px);
+    }
+
+    .allDots {
+        max-width: 56px;
+        width: 100%;
+        position: absolute;
+        bottom: 4%;
+        right: 14.5%;
+    }
+}
+
+@media (max-width: 880px) {
+    .guitarSection {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    /* .socialMediaLinks {
+        right: -22%;
+        top: 50%;
+    } */
+
+    .allDots {
+        max-width: 56px;
+        width: 100%;
+        position: absolute;
+        bottom: 3%;
+        right: 20.5%;
+    }
+
+    .forAbsolute {
+        position: absolute;
+        right: 37%;
+        top: -40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-max-heading {
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .section-min-heading {
+        margin: 8px 0;
+    }
+
+    .forAbsolute {
+        position: absolute;
+        top: 3%;
+        right: 48%;
+        height: 410.45px !important;
+    }
+
+    .allDots {
+        max-width: 56px;
+        width: 100%;
+        position: absolute;
+        bottom: 7%;
+        right: 32.5%;
+    }
+
+    .dottt {
+        padding: 12px;
+    }
+
+    .socialMediaLinks {
+        right: -20.5%;
+        top: 48%;
+    }
+
+    .shopBtn1 {
+        width: 100%;
+        max-width: 50%;
+        padding: 12px 0;
+    }
+
+    .shopBtn2 {
+        width: 100%;
+        max-width: 50%;
+        padding: 12px 0;
+    }
+
+    .dottt {
+        max-width: 44px;
+    }
+
+    .py-4.guitarSection {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    a.linkPadding {
+        padding: 0 80px 0 80px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .drumSectionData h2 {
+        font-size: 38px;
+        padding-top: 32px;
+    }
+
+    .socialMediaLinks {
+        right: -22.5%;
+        top: 46%;
+    }
+
+    .forAbsolute {
+        position: absolute;
+        top: 4%;
+        right: 37%;
+    }
+
+    .allDots {
+        bottom: 1%;
+        right: 20.5%;
+    }
+
+    .dottt.dot1 {
+        transform: translateX(4px);
+        margin: 0;
+    }
+
+    .section-min-heading {
+        line-height: 1.5;
+        margin: 16px 0 !important;
+    }
+
+    .section-max-heading.pt-5 {
+        padding-top: 9rem !important;
+    }
+
+    .shopBtn1 {
+        width: 100%;
+        max-width: 100% !important;
+        padding: 8px 0 !important;
+    }
+
+    .shopBtn2 {
+        width: 100%;
+        max-width: 100% !important;
+        padding: 8px 0 !important;
+    }
+
+    .guitarSectionData.py-5 {
+        padding-top: 0 !important;
+    }
+}
+
+@media (max-width: 720px) {}
+
+@media (max-width: 668px) {}
+
+@media (max-width: 610px) {
+    .socialMediaLinks {
+        right: -30%;
+    }
+}
+
+@media (max-width: 576px) {
+    .guitarSectionData2 {
+        height: 41vh;
+    }
+
+    .guitarSectionData.py-5 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .dottt {
+        padding: 16px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .forAbsolute {
+        right: -53px;
+        top: -29px;
+        bottom: 0;
+        left: 70%;
+        height: 390px !important;
+    }
+
+    .socialMediaLinks {
+        display: block;
+        position: absolute;
+        top: 31%;
+        right: -33%;
+    }
+
+    .allDots {
+        transform: rotate(90deg);
+        max-width: 100%;
+        z-index: 99;
+        position: absolute;
+        left: 77px;
+        right: 0;
+        bottom: -88%;
+        top: 90%;
+    }
+
+    .dottt.dot1 {
+        transform: translateX(-6px);
+        margin: 0;
+    }
+
+    .guitarSection {
+        background-image: url(https://cdn.shopify.com/s/files/1/0450/9319/1836/files/Group_1290_21530274-6a17-4670-9f17-2358ef326175.jpg?v=1646826981);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .guitarSectionData1.py-5 {
+        width: 100% !important;
+        padding-top: 5rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .row.shopBtnRow.pb-5 {
+        padding-bottom: 0 !important;
+    }
+
+    .shopBtn1 {
+        width: 100%;
+        max-width: 30% !important;
+        padding: 8px 0 !important;
+    }
+
+    .shopBtn2 {
+        width: 100%;
+        max-width: 30% !important;
+        padding: 8px 0 !important;
+    }
+
+    .shopBtn1 {
+        width: 100%;
+        max-width: 40%;
+        padding: 12px 0;
+    }
+
+    .shopBtn2 {
+        width: 100%;
+        max-width: 40%;
+        padding: 12px 0;
+    }
+
+    .dottt {
+        max-width: 52px;
+    }
+
+    .guitarSectionData.py-5 {
+        padding-top: 48px !important;
+    }
+
+    .section-min-heading {
+        font-family: proxima-nova, sans-serif;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 575px) {
+    .allDots {
+        position: absolute;
+        left: 85px;
+        right: 0;
+        bottom: -91%;
+        top: 178%;
+    }
+
+    .forAbsolute {
+        right: -53px;
+        top: -29px;
+        bottom: 0;
+        left: 36%;
+        /* height: 440px !important; */
+    }
+}
+
+@media (max-width: 554px) {
+}
+
+@media (max-width: 540px) {
+    .allDots {
+        position: absolute;
+        left: 85px;
+        right: 0;
+        bottom: -85%;
+        top: 169%;
+    }
+}
+
+@media (max-width: 510px) {
+    .allDots {
+        position: absolute;
+        left: 85px;
+        right: 0;
+        bottom: -81%;
+        top: 162%;
+    }
+}
+
+@media (max-width: 470px) {
+    .allDots {
+        position: absolute;
+        left: 85px;
+        right: 0;
+        bottom: -73%;
+        top: 158%;
+    }
+
+    .forAbsolute {
+        right: -53px;
+        top: -29px;
+        bottom: 0;
+        left: 32%;
+    }
+}
+
+@media (max-width: 440px) {
+    .forAbsolute {
+        right: -53px;
+        top: -29px;
+        bottom: 0;
+        left: 32%;
+    }
+
+    .allDots {
+        position: absolute;
+        left: 85px;
+        right: 0;
+        bottom: -68%;
+        top: 152%;
+    }
+}
+
+@media (max-width: 425px) {
+    .forAbsolute {
+        right: -53px;
+        top: -29px;
+        bottom: 0;
+        left: 32%;
+        height: 360px !important;
+    }
+    .allDots {
+        position: absolute;
+        left: 85px;
+        right: 0;
+        bottom: -59%;
+        top: 144%;
+    }
+
+    .socialMediaLinks a {
+        padding-right: 24px !important;
+        padding-left: 24px !important;
+    }
+
+    .socialMediaLinks {
+        display: block;
+        position: absolute;
+        top: 28%;
+        right: -42%;
+    }
+
+    .toggleBrandImg {
+        width: 110px;
+    }
+
+    .section-max-heading {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .shopBtn1 {
+        width: 100%;
+        max-width: 40% !important;
+        padding: 8px 0 !important;
+        font-size: 16px;
+    }
+
+    .shopBtn2 {
+        width: 100%;
+        max-width: 40% !important;
+        padding: 8px 0 !important;
+        font-size: 16px;
+    }
+
+    .guitarSectionData1.py-5 {
+        width: 100% !important;
+        padding-top: 5rem !important;
+        padding-bottom: 0rem !important;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .guitarSection {
+        background-image: url(https://cdn.shopify.com/s/files/1/0450/9319/1836/files/Group_1290_21530274-6a17-4670-9f17-2358ef326175.jpg?v=1646826981);
+        background-size: 150% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .allDots {
+        position: absolute;
+        left: 85px;
+        right: 0;
+        bottom: -51%;
+        top: 137%;
+    }
+    .forAbsolute {
+        right: -53px;
+        top: -29px;
+        bottom: 0;
+        left: 30%;
+        height: 360px !important;
+    }
+    .socialMediaLinks {
+        display: block;
+        position: absolute;
+        top: 28%;
+        right: -49%;
+    }
+
+    .dottt.dot3 {
+        transform: translateX(46px);
+        margin: 1px 0;
+    }
+
+    .shopBtn1 {
+        width: 100%;
+        max-width: 50% !important;
+        padding: 8px 0;
+    }
+
+    .shopBtn2 {
+        width: 100%;
+        max-width: 50% !important;
+        padding: 8px 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .guitarSection {
+        background-image: url(https://cdn.shopify.com/s/files/1/0450/9319/1836/files/Group_1290_21530274-6a17-4670-9f17-2358ef326175.jpg?v=1646826981);
+        background-size: 170% 100%;
+        background-repeat: no-repeat;
+        background-position: -6rem 0rem;
+    }
+
+    .socialMediaLinks {
+        display: block;
+        position: absolute;
+        top: 28%;
+        right: -59%;
+    }
+    .allDots {
+        position: absolute;
+        left: 85px;
+        right: 0;
+        bottom: -49%;
+        top: 127%;
+    }
+}

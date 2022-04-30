@@ -1,0 +1,225 @@
+.drumSectionData h2 {
+    font-size: 57px;
+    font-family: Playfair Display, serif;
+    font-weight: 600;
+    font-weight: 56px;
+}
+
+.drumSectionData p {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family: proxima-nova, sans-serif;
+}
+
+a.learn {
+    width: 100%;
+    max-width: 36%;
+    padding: 18px 0px;
+    border-radius: 35px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #F27C67;
+    font-size: 18px;
+    margin-right: 12px;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.learn:hover {
+    background-color: #F27C67;
+    color: #fff;
+    transition: 0.3s;
+}
+
+a.shop {
+    width: 100%;
+    max-width: 36%;
+    padding: 18px 0px;
+    border-radius: 35px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #F27C67;
+    font-size: 18px;
+    margin-left: 12px;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+a.shop:hover {
+    background-color: #F27C67;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.contact1 span {
+    color: red;
+}
+
+.drumBG {
+    background: #101532;
+}
+
+@media (max-width: 1024px) {
+    .drumSectionData h2 {
+        font-size: 38px;
+    }
+
+    .drumSectionData p {
+        padding-bottom: 18px !important;
+        padding-top: 24px !important;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    a.learn {
+        width: 100%;
+        max-width: 35%;
+        padding: 8px 0px;
+    }
+
+    a.shop {
+        width: 100%;
+        max-width: 35%;
+        padding: 8px 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    a.learn {
+        width: 100%;
+        max-width: 45%;
+    }
+
+    a.shop {
+        width: 100%;
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 767px) {
+    a.learn {
+        width: 100%;
+        max-width: 30%;
+        padding: 12px 0;
+    }
+
+    a.shop {
+        width: 100%;
+        max-width: 30%;
+        padding: 12px 0;
+    }
+
+    .drumSectionData h2 {
+        font-size: 38px;
+        padding-top: 32px;
+    }
+
+    .drum_img.pe-4 {
+        padding-bottom: 32px;
+        padding-right: 0px !important;
+        width: 80% !important;
+        margin: auto;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .drumSection.py-5 {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .drumSectionData h2 {
+        font-size: 32px;
+    }
+
+    a.learn {
+        width: 100%;
+        max-width: 30%;
+        padding: 8px 0;
+        font-size: 17px;
+    }
+
+    a.shop {
+        width: 100%;
+        max-width: 30%;
+        padding: 8px 0;
+        font-size: 17px;
+    }
+
+    .drum_img.pe-4 {
+        padding-bottom: 32px;
+        padding-right: 0px !important;
+        width: 90% !important;
+        margin: auto;
+    }
+
+    .drumSectionData {
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 425px) {
+    a.learn {
+        width: 100%;
+        max-width: 40%;
+        padding: 8px 0;
+    }
+
+    a.shop {
+        width: 100%;
+        max-width: 40%;
+        padding: 8px 0;
+    }
+
+    .drumSectionData h2 {
+        font-size: 28px;
+    }
+
+    .drumSectionData p {
+        padding-bottom: 12px !important;
+        padding-top: 18px !important;
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .drumSectionData {
+        padding-top: 2rem !important;
+    }
+
+    .drum_img.pe-4 {
+        padding-right: 0 !important;
+    }
+}
+
+@media (max-width: 375px) {
+    a.learn {
+        width: 100%;
+        max-width: 44%;
+    }
+
+    a.shop {
+        width: 100%;
+        max-width: 44%;
+    }
+}
+
+@media (max-width: 320px) {
+    a.learn {
+        width: 100%;
+        max-width: 44%;
+        padding: 6px 0;
+    }
+
+    a.shop {
+        width: 100%;
+        max-width: 44%;
+        padding: 6px 0;
+    }
+}

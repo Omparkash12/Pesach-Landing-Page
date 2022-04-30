@@ -1,0 +1,456 @@
+/* .sliderData{
+    width: 100% !important;
+    max-width: 317px !important;
+    margin: auto !important;
+} */
+
+.stars5 li a svg {
+    font-size: 20px;
+    color: #999;
+}
+
+.sliderHeading {
+    font-size: 54px;
+    font-family: Playfair Display, serif;
+    font-weight: 600;
+    padding-top: 48px;
+    line-height: 1.2;
+}
+
+.sliderCon h3 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.boxShadow1 {
+    box-shadow: 0 -5px 15px #0000001c;
+}
+
+.stars5 span {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slidercart {
+    background: #121A3C;
+    height: 54px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.slidercart svg path {
+    fill: #F27C67;
+}
+
+.slidercart svg circle {
+    fill: #F27C67;
+}
+
+.slidercart:hover.slidercart svg path {
+    filter: brightness(1.2);
+}
+
+.slidercart:hover.slidercart svg circle {
+    filter: brightness(1.2);
+}
+
+
+.slickSlider {
+    background: #F0F0F0;
+}
+
+.sliderData {
+    background: #fff;
+    border: 2px solid #f5f5f5;
+    border-radius: 10px;
+}
+
+.sliderCon {
+    border-top: 2px solid #f5f5f5;
+    border-radius: 10px;
+    padding: 16px 24px;
+    box-shadow: 0 5px 5px #cdcdcd;
+}
+
+
+.sliderContent button.slick-arrow.slick-prev {
+    position: absolute;
+    left: -81px;
+    z-index: 5;
+    top: 32%;
+}
+
+.sliderContent .slick-prev:before {
+    font-family: '';
+    font-size: 72px;
+    line-height: 1;
+    opacity: 1;
+    -webkit-font-smoothing: antialiased;
+    background-image: url(https://cdn.shopify.com/s/files/1/0450/9319/1836/files/lux-prev-icon.png);
+    -moz-osx-font-smoothing: grayscale;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+.sliderContent button.slick-arrow.slick-next {
+    position: absolute;
+    right: -20px;
+    z-index: 5;
+    top: 32%;
+}
+
+.sliderContent .slick-next:before {
+    font-family: '';
+    font-size: 72px;
+    line-height: 1;
+    opacity: 1;
+    color: #080D23;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url(https://cdn.shopify.com/s/files/1/0450/9319/1836/files/lux-next-icon.png);
+    color: transparent;
+    background-repeat: no-repeat;
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+    opacity: 1 !important;
+}
+
+
+.popularBadge {
+    position: absolute;
+    padding: 6px 24px;
+    background: #F37B68;
+    color: #fff;
+    top: 0px;
+    left: 5px;
+    font-weight: 600;
+}
+
+.slides11:focus-visible {
+    outline: none;
+}
+
+
+
+
+
+.sliderWidth {
+    max-width: 1200px !important;
+    margin: auto;
+    padding: 0px 5% 0px !important;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 48px 0 48px;
+    width: 95%;
+    margin: auto;
+}
+
+.slides11 {
+    max-width: 317px !important;
+    width: 100% !important;
+    padding: 6px;
+}
+
+.slider-image {
+    padding: 30px 40px;
+}
+
+.stickertag {
+    font-family: Times New Roman;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.slickSlider.slick-slide.slick-active {
+    box-shadow: 0 0 40px #0000003d;
+}
+
+
+
+
+.default1 {
+    border: 2px solid #fff;
+}
+
+@media (max-width: 1360px) {
+    .sliderContent button.slick-arrow.slick-next {
+        position: absolute;
+        right: -18px;
+        z-index: 5;
+    }
+
+    .sliderContent button.slick-arrow.slick-prev {
+        position: absolute;
+        left: -68px;
+        z-index: 5;
+    }
+}
+
+@media (max-width: 1290px) {
+    .sliderContent button.slick-arrow.slick-next {
+        position: absolute;
+        right: -4px;
+        z-index: 5;
+    }
+
+    .sliderContent button.slick-arrow.slick-prev {
+        position: absolute;
+        left: -52px;
+        z-index: 5;
+    }
+}
+
+@media (max-width: 1230px) {
+    .sliderContent button.slick-arrow.slick-next {
+        position: absolute;
+        right: 30px;
+        z-index: 5;
+    }
+
+    .sliderContent button.slick-arrow.slick-prev {
+        position: absolute;
+        left: -22px;
+        z-index: 5;
+    }
+}
+
+@media (max-width: 1210px) {
+    .sliderContent button.slick-arrow.slick-next {
+        position: absolute;
+        right: 30px;
+        z-index: 5;
+    }
+
+    .sliderContent button.slick-arrow.slick-prev {
+        position: absolute;
+        left: -22px;
+        z-index: 5;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sliderContent button.slick-arrow.slick-next {
+        position: absolute;
+        right: 28px;
+        z-index: 5;
+        top: 36%;
+    }
+    .sliderContent button.slick-arrow.slick-prev {
+        position: absolute;
+        left: -22px;
+        z-index: 5;
+        top: 36%;
+    }    
+    .sliderContent .slick-prev:before {
+        background-size: 65px;
+        font-size: 65px;
+        position: absolute;
+        left: 2px;
+    }
+    .sliderContent .slick-next:before{
+        background-size: 65px;
+        font-size: 65px;
+        position: absolute;
+        right: -48px;     
+    }
+
+    .sliderHeading {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .slides11 {
+        max-width: 441px !important;
+        width: 100% !important;
+        padding: 12px;
+    }
+
+    .slidercart {
+        background: #121A3C;
+        height: 70px;
+        width: 70px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .slides11 {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 12px;
+    }
+
+    .sliderContent .slick-next:before {
+        background-size: 60px;
+        font-size: 65px;
+    }
+
+    .sliderContent .slick-prev:before {
+        background-size: 60px;
+        font-size: 65px;
+    }
+
+    .sliderContent button.slick-arrow.slick-next {
+        position: absolute;
+        right: 34px;
+        z-index: 5;
+        top: 42%;
+    }
+
+    .sliderContent button.slick-arrow.slick-prev {
+        position: absolute;
+        left: -10px;
+        z-index: 5;
+        top: 42%;
+    }
+
+    .popularBadge {
+        position: absolute;
+        padding: 6px 24px;
+        background: #F37B68;
+        color: #fff;
+        top: 3%;
+        left: 11px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 576px) {
+    .sliderContent .slick-next:before {
+        background-size: 50px;
+        font-size: 50px;
+    }
+
+    .sliderContent .slick-prev:before {
+        background-size: 50px;
+        font-size: 50px;
+    }
+
+    .sliderContent button.slick-arrow.slick-prev {
+        position: absolute;
+        left: -12px;
+        z-index: 5;
+        top: 39%;
+    }
+
+    .sliderContent button.slick-arrow.slick-next {
+        position: absolute;
+        right: 14px;
+        z-index: 5;
+        top: 39%;
+    }
+
+    .slidercart {
+        height: 56px;
+        width: 58px;
+    }
+
+    .slides11 {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 12px;
+    }
+
+    .popularBadge {
+        position: absolute;
+        padding: 6px 24px;
+        background: #F37B68;
+        color: #fff;
+        top: 1%;
+        left: 12px;
+        font-weight: 600;
+    }
+
+    .sliderHeading {
+        font-size: 30px;
+        line-height: 38px;
+        padding-top: 32px;
+    }
+    .slick-list {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        margin: 0;
+        padding: 32px 0 32px;
+        width: 100%;
+        margin: auto;
+    }
+    .custompadd {
+        padding-top: 32px;
+        padding-bottom: 78px;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .sliderContent .slick-next:before {
+        background-size: 55px;
+        font-size: 55px;
+        position: absolute;
+        right: -35px;
+    }
+    .sliderContent .slick-prev:before {
+        background-size: 55px;
+        font-size: 55px;
+        position: absolute;
+        left: -8px;
+    }
+}
+
+@media (max-width: 425px) {
+    .sliderHeading {
+        font-size: 38px;
+    }
+
+    .slides11 {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 12px;
+    }
+
+    .sliderContent .slick-next:before {
+        background-size: 50px;
+        font-size: 50px;
+        position: absolute;
+        right: -35px;
+    }
+    .sliderContent .slick-prev:before {
+        background-size: 50px;
+        font-size: 50px;
+        position: absolute;
+        left: -8px;
+    }
+}
+
+@media (max-width: 375px) {
+    .slides11 {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 12px;
+    }
+
+    .sliderContent .slick-next:before {
+        background-size: 50px;
+        font-size: 50px;
+        position: absolute;
+        right: -24px;
+    }
+    .sliderContent .slick-prev:before {
+        background-size: 50px;
+        font-size: 50px;
+        position: absolute;
+        left: 2px;
+    }
+}
